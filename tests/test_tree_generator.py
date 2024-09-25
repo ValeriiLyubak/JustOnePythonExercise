@@ -16,9 +16,9 @@ def test_generate_tree_3_levels(setup_teardown):
     expected_output = (
         "      W      \n"
         "      *      \n"
-        "  @ * * * *  \n"
-        "* * * * * * * * @\n"
-        "@ * * * * * * * * * * * *\n"
+        " @ * * * * * \n"
+        "* * * * * * * * * @\n"
+        "@ * * * * * * * * * * * * *\n"
         "    TTTTT    \n"
         "    TTTTT    \n"
     )
